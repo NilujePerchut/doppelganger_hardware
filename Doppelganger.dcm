@@ -1,0 +1,75 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP C
+D Unpolarized capacitor
+$ENDCMP
+#
+$CMP CONN_01X02
+D Connector 01x02
+$ENDCMP
+#
+$CMP CONN_01X03
+D Connector 01x03
+$ENDCMP
+#
+$CMP CONN_01X04
+D Connector 01x04
+$ENDCMP
+#
+$CMP CONN_01X05
+D Connector 01x05
+$ENDCMP
+#
+$CMP CONN_01X06
+D Connector 01x06
+$ENDCMP
+#
+$CMP CONN_01X07
+D Connector 01x07
+$ENDCMP
+#
+$CMP CONN_01X08
+D Connector 01x08
+$ENDCMP
+#
+$CMP CONN_01X09
+D Connector 01x09
+$ENDCMP
+#
+$CMP CONN_02X11
+D Connector 02x11
+$ENDCMP
+#
+$CMP D
+D Diode
+$ENDCMP
+#
+$CMP DB25
+K CONN
+$ENDCMP
+#
+$CMP LED
+K LED
+$ENDCMP
+#
+$CMP R
+D Resistor
+K R DEV
+$ENDCMP
+#
+$CMP SWITCH_INV_MSM
+D Switch inverseur M S M
+K switch
+$ENDCMP
+#
+$CMP SW_PUSH
+D Button
+K Switch
+$ENDCMP
+#
+$CMP USB_B
+D B connector
+K USB USB_B
+$ENDCMP
+#
+#End Doc Library
