@@ -14,12 +14,17 @@ See the software project.
 
 ### Bug 1
 Labelling is wrong on the PCB:
-R2 should be L2
-L2 should be R2
-Square should be Triangle
-Triangle should be Square
-Circle should be R3
-R3 should be Circle
+* R2 should be L2
+* L2 should be R2
+* Square should be Triangle
+* Triangle should be Square
+* Circle should be R3
+* R3 should be Circle
+
+### Bug 2
+The PIC18F45K50 does not allow GPIO usage of USB pins USBP and USBN. In order to use them as GPIO, we need to wire them to other free GPIO pins:
+* USBP (RJ45 pin 6) must be wired to RA3 (PIC18F45K50 pin 22)
+* USBN (RJ45 pin 5) must be wired to RA2 (PIC18F45K50 pin 21)
 
 ## Mounting options
 
