@@ -26,6 +26,9 @@ The PIC18F45K50 does not allow GPIO usage of USB pins USBP and USBN. In order to
 * USBP (RJ45 pin 6) must be wired to RA3 (PIC18F45K50 pin 22)
 * USBN (RJ45 pin 5) must be wired to RA2 (PIC18F45K50 pin 21)
 
+### Bug 3
+A 4K7 pull-up resistor is needed on the SDO signal in order to provide a valid idle state.
+
 ## Mounting options
 
 R22, R25, R26, R28 are not mounted.
