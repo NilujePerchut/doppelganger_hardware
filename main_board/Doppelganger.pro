@@ -1,4 +1,4 @@
-update=dim. 05 mars 2017 13:00:03 CET
+update=mer. 02 août 2017 16:23:06 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,7 +29,7 @@ version=1
 version=1
 LibDir=
 [eeschema/libraries]
-LibName1=Doppelganger-rescue
+LibName1=Doppelganger
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -60,4 +60,3 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=microchip_pic18mcu
-LibName32=Doppelganger

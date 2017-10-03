@@ -1,5 +1,10 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 74HC00
+D Quad nand2
+K TTL nand2
+$ENDCMP
+#
 $CMP C
 D Unpolarized capacitor
 $ENDCMP
@@ -44,8 +49,18 @@ $CMP D
 D Diode
 $ENDCMP
 #
+$CMP DB15_FEMALE
+D 15-pin female D-SUB connector (low-density/2 columns)
+K female D-SUB connector
+$ENDCMP
+#
 $CMP DB25
 K CONN
+$ENDCMP
+#
+$CMP GS2
+D 2-pin jumper/solder bridge
+K jumper solder bridge
 $ENDCMP
 #
 $CMP LED

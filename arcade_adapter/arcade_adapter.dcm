@@ -1,0 +1,8 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DB15_FEMALE
+D 15-pin female D-SUB connector (low-density/2 columns)
+K female D-SUB connector
+$ENDCMP
+#
+#End Doc Library

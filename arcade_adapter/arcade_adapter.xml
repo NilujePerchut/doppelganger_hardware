@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/niluje/Work/Doppelganger/Hardware/arcade_adapter/arcade_adapter.sch</source>
+    <date>jeu. 24 août 2017 23:05:55 CEST</date>
+    <tool>Eeschema no-vcs-found-33048e7~59~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Doppelganger Arcade Adapter</title>
+        <company>Tach Radio</company>
+        <rev>A0</rev>
+        <date>2017-03-29</date>
+        <source>arcade_adapter.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="J1">
+      <value>RJ45</value>
+      <footprint>Doppelganger:RJ45</footprint>
+      <fields>
+        <field name="Descr">RJ45 jack</field>
+        <field name="Part number">RJHSE-5380</field>
+        <field name="Manufacturer">AMPHENOL ICC</field>
+        <field name="Farnell CC">1860580</field>
+      </fields>
+      <libsource lib="Doppelganger" part="RJ45"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC2D17</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>DB15_FEMALE</value>
+      <footprint>Doppelganger:DB15F_CI</footprint>
+      <fields>
+        <field name="Descr">15 pin female subd</field>
+        <field name="Part number">5502-15SA-01-F1 </field>
+        <field name="Manufacturer">MULTICOMP</field>
+        <field name="Farnell CC">1084693</field>
+      </fields>
+      <libsource lib="Doppelganger" part="DB15_FEMALE"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC2FC6</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>18F23K22</value>
+      <footprint>Doppelganger:SOIC-28</footprint>
+      <fields>
+        <field name="Descr">8 bit microcontroller</field>
+        <field name="Manufacturer">MICROCHIP</field>
+        <field name="Farnell CC">N/A</field>
+        <field name="Part number">PIC18F23K22T-I/SO</field>
+      </fields>
+      <libsource lib="Doppelganger" part="18F23K22"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC3A57</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>0,1µF</value>
+      <footprint>Doppelganger:0603C</footprint>
+      <fields>
+        <field name="Descr">Capacitor X7R 0.1µF 50V 10%</field>
+        <field name="Part number">MC0603B104K250CT</field>
+        <field name="Manufacturer">MULTICOMP</field>
+        <field name="Farnell CC">1759037</field>
+      </fields>
+      <libsource lib="Doppelganger" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC3AD3</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>CONN_01X06</value>
+      <footprint>Doppelganger:SIL6</footprint>
+      <fields>
+        <field name="Descr">6 pins 2.54mm connector</field>
+        <field name="Part number">2211S-06G</field>
+        <field name="Manufacturer">MULTICOMP</field>
+        <field name="Farnell CC">1593415</field>
+      </fields>
+      <libsource lib="Doppelganger" part="CONN_01X06"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC3E97</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>100R</value>
+      <footprint>Doppelganger:0603R</footprint>
+      <fields>
+        <field name="Descr">Resistor 100R 100mW 5% 0603</field>
+        <field name="Part number">MCWR06X1000FTL</field>
+        <field name="Manufacturer">MULTICOMP</field>
+        <field name="Farnell CC">2447227</field>
+      </fields>
+      <libsource lib="Doppelganger" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC44A5</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10K</value>
+      <footprint>Doppelganger:0603R</footprint>
+      <fields>
+        <field name="Descr">Resistor 10K 100mW 1% 0603</field>
+        <field name="Part number">MCWR06X1002FTL</field>
+        <field name="Manufacturer">MULTICOMP</field>
+        <field name="Farnell CC">2447230</field>
+      </fields>
+      <libsource lib="Doppelganger" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC477C</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>0,1µF</value>
+      <footprint>Doppelganger:0603C</footprint>
+      <fields>
+        <field name="Descr">Capacitor X7R 0.1µF 50V 10%</field>
+        <field name="Part number">MC0603B104K250CT</field>
+        <field name="Manufacturer">MULTICOMP</field>
+        <field name="Farnell CC">1759037</field>
+      </fields>
+      <libsource lib="Doppelganger" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC4A49</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>330R</value>
+      <footprint>Doppelganger:0603R</footprint>
+      <fields>
+        <field name="Descr">Resistor 330R 100mW 1% 0603</field>
+        <field name="Part number">MCWR06X3300FTL</field>
+        <field name="Manufacturer">MULTICOMP</field>
+        <field name="Farnell CC">2447339</field>
+      </fields>
+      <libsource lib="Doppelganger" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC6709</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>330R</value>
+      <footprint>Doppelganger:0603R</footprint>
+      <fields>
+        <field name="Descr">Resistor 330R 100mW 1% 0603</field>
+        <field name="Part number">MCWR06X3300FTL</field>
+        <field name="Manufacturer">MULTICOMP</field>
+        <field name="Farnell CC">2447339</field>
+      </fields>
+      <libsource lib="Doppelganger" part="R"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC6D0B</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>Doppelganger:0805LED</footprint>
+      <fields>
+        <field name="Descr">Green LED 0805</field>
+        <field name="Part number">5988170107F</field>
+        <field name="Manufacturer">DIALIGHT</field>
+        <field name="Farnell CC">1465996</field>
+      </fields>
+      <libsource lib="Doppelganger" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC6E7C</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>0,1µF</value>
+      <footprint>Doppelganger:0603C</footprint>
+      <fields>
+        <field name="Descr">Capacitor X7R 0.1µF 50V 10%</field>
+        <field name="Part number">MC0603B104K250CT</field>
+        <field name="Manufacturer">MULTICOMP</field>
+        <field name="Farnell CC">1759037</field>
+      </fields>
+      <libsource lib="Doppelganger" part="C"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58DC73EF</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>LED</value>
+      <footprint>Doppelganger:0805LED</footprint>
+      <fields>
+        <field name="Descr">Green LED 0805</field>
+        <field name="Part number">5988170107F</field>
+        <field name="Manufacturer">DIALIGHT</field>
+        <field name="Farnell CC">1465996</field>
+      </fields>
+      <libsource lib="Doppelganger" part="LED"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>58E0A582</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Doppelganger" part="18F23K22">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">18F23K22</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~MCLR" type="input"/>
+        <pin num="2" name="RA0" type="BiDi"/>
+        <pin num="3" name="RA1" type="BiDi"/>
+        <pin num="4" name="RA2" type="BiDi"/>
+        <pin num="5" name="RA3" type="BiDi"/>
+        <pin num="6" name="RA4" type="BiDi"/>
+        <pin num="7" name="~CSS" type="BiDi"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="RA7" type="BiDi"/>
+        <pin num="10" name="RA6" type="BiDi"/>
+        <pin num="11" name="RC0" type="BiDi"/>
+        <pin num="12" name="RC1" type="BiDi"/>
+        <pin num="13" name="RC2" type="BiDi"/>
+        <pin num="14" name="SCK" type="BiDi"/>
+        <pin num="15" name="SDI" type="BiDi"/>
+        <pin num="16" name="SD0" type="BiDi"/>
+        <pin num="17" name="RC6" type="BiDi"/>
+        <pin num="18" name="RC7" type="BiDi"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="VDD" type="power_in"/>
+        <pin num="21" name="RB0" type="BiDi"/>
+        <pin num="22" name="RB1" type="BiDi"/>
+        <pin num="23" name="RB2" type="BiDi"/>
+        <pin num="24" name="RB3" type="BiDi"/>
+        <pin num="25" name="RB4" type="BiDi"/>
+        <pin num="26" name="RB5" type="BiDi"/>
+        <pin num="27" name="PGC" type="BiDi"/>
+        <pin num="28" name="PGD" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="Doppelganger" part="C">
+      <description>Unpolarized capacitor</description>
+      <footprints>
+        <fp>C?</fp>
+        <fp>C_????_*</fp>
+        <fp>C_????</fp>
+        <fp>SMD*_c</fp>
+        <fp>Capacitor*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Doppelganger" part="CONN_01X06">
+      <description>Connector 01x06</description>
+      <footprints>
+        <fp>SIL6_Angled</fp>
+        <fp>SIL6</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">P</field>
+        <field name="Value">CONN_01X06</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P1" type="passive"/>
+        <pin num="2" name="P2" type="passive"/>
+        <pin num="3" name="P3" type="passive"/>
+        <pin num="4" name="P4" type="passive"/>
+        <pin num="5" name="P5" type="passive"/>
+        <pin num="6" name="P6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Doppelganger" part="DB15_FEMALE">
+      <description>15-pin female D-SUB connector (low-density/2 columns)</description>
+      <footprints>
+        <fp>DB*F*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB15_FEMALE</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="P9" type="passive"/>
+        <pin num="10" name="P10" type="passive"/>
+        <pin num="11" name="P111" type="passive"/>
+        <pin num="12" name="P12" type="passive"/>
+        <pin num="13" name="P13" type="passive"/>
+        <pin num="14" name="P14" type="passive"/>
+        <pin num="15" name="P15" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Doppelganger" part="LED">
+      <footprints>
+        <fp>LED-3MM</fp>
+        <fp>LED-5MM</fp>
+        <fp>LED-10MM</fp>
+        <fp>LED-0603</fp>
+        <fp>LED-0805</fp>
+        <fp>LED-1206</fp>
+        <fp>LEDV</fp>
+        <fp>0805LED</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+      </fields>
+      <pins>
+        <pin num="A" name="A" type="passive"/>
+        <pin num="K" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Doppelganger" part="R">
+      <description>Resistor</description>
+      <footprints>
+        <fp>R_*</fp>
+        <fp>Resistor_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Doppelganger" part="RJ45">
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">RJ45</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+        <pin num="3" name="~" type="passive"/>
+        <pin num="4" name="~" type="passive"/>
+        <pin num="5" name="~" type="passive"/>
+        <pin num="6" name="~" type="passive"/>
+        <pin num="7" name="~" type="passive"/>
+        <pin num="8" name="~" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Doppelganger">
+      <uri>/home/niluje/Work/Doppelganger/Hardware/main_board/Doppelganger.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="Net-(R3-Pad1)">
+      <node ref="R3" pin="1"/>
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="2" name="Net-(C1-Pad1)">
+      <node ref="J2" pin="1"/>
+      <node ref="C1" pin="1"/>
+      <node ref="R1" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="3" name="/SDO">
+      <node ref="U1" pin="16"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="4" name="/DATA">
+      <node ref="U1" pin="26"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="5" name="/CMD">
+      <node ref="U1" pin="23"/>
+      <node ref="J1" pin="6"/>
+    </net>
+    <net code="6" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="7" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="8" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="U1" pin="24"/>
+    </net>
+    <net code="9" name="GND">
+      <node ref="C3" pin="2"/>
+      <node ref="U1" pin="19"/>
+      <node ref="D2" pin="K"/>
+      <node ref="C1" pin="2"/>
+      <node ref="J1" pin="1"/>
+      <node ref="U1" pin="8"/>
+      <node ref="J3" pin="8"/>
+      <node ref="D1" pin="K"/>
+      <node ref="C2" pin="2"/>
+      <node ref="J2" pin="3"/>
+    </net>
+    <net code="10" name="Net-(D1-PadA)">
+      <node ref="R2" pin="1"/>
+      <node ref="D1" pin="A"/>
+    </net>
+    <net code="11" name="VDD">
+      <node ref="J3" pin="1"/>
+      <node ref="J1" pin="8"/>
+      <node ref="J2" pin="2"/>
+      <node ref="R1" pin="2"/>
+      <node ref="U1" pin="20"/>
+      <node ref="C2" pin="1"/>
+      <node ref="R2" pin="2"/>
+      <node ref="C3" pin="1"/>
+    </net>
+    <net code="12" name="/Down">
+      <node ref="U1" pin="12"/>
+      <node ref="J3" pin="2"/>
+    </net>
+    <net code="13" name="/Coin">
+      <node ref="J3" pin="6"/>
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="14" name="/Start">
+      <node ref="J3" pin="13"/>
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="15" name="/MK">
+      <node ref="U1" pin="3"/>
+      <node ref="J3" pin="14"/>
+    </net>
+    <net code="16" name="/LK">
+      <node ref="U1" pin="6"/>
+      <node ref="J3" pin="5"/>
+    </net>
+    <net code="17" name="/MP">
+      <node ref="U1" pin="21"/>
+      <node ref="J3" pin="4"/>
+    </net>
+    <net code="18" name="/LP">
+      <node ref="J3" pin="11"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="19" name="/Right">
+      <node ref="J3" pin="3"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="20" name="/Left">
+      <node ref="J3" pin="10"/>
+      <node ref="U1" pin="11"/>
+    </net>
+    <net code="21" name="/Up">
+      <node ref="J3" pin="9"/>
+      <node ref="U1" pin="13"/>
+    </net>
+    <net code="22" name="Net-(D2-PadA)">
+      <node ref="R4" pin="1"/>
+      <node ref="D2" pin="A"/>
+    </net>
+    <net code="23" name="/HK">
+      <node ref="U1" pin="2"/>
+      <node ref="J3" pin="7"/>
+    </net>
+    <net code="24" name="/HP">
+      <node ref="J3" pin="12"/>
+      <node ref="U1" pin="22"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad25)">
+      <node ref="U1" pin="25"/>
+    </net>
+    <net code="26" name="/SDI">
+      <node ref="J1" pin="3"/>
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="27" name="/SCK">
+      <node ref="J1" pin="2"/>
+      <node ref="U1" pin="14"/>
+    </net>
+    <net code="28" name="/~CSS">
+      <node ref="U1" pin="7"/>
+      <node ref="J1" pin="7"/>
+    </net>
+    <net code="29" name="Net-(J3-Pad15)">
+      <node ref="J3" pin="15"/>
+    </net>
+    <net code="30" name="/PGC">
+      <node ref="J2" pin="5"/>
+      <node ref="U1" pin="27"/>
+    </net>
+    <net code="31" name="Net-(J2-Pad6)">
+      <node ref="J2" pin="6"/>
+    </net>
+    <net code="32" name="/PGD">
+      <node ref="U1" pin="28"/>
+      <node ref="J2" pin="4"/>
+    </net>
+  </nets>
+</export>
