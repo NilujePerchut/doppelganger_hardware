@@ -1,13 +1,9 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:Doppelganger
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
 LIBS:linear
 LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
@@ -22,13 +18,11 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
-LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
 LIBS:usb_alien-cache
 EELAYER 26 0
 EELAYER END
@@ -678,7 +672,7 @@ L C C2
 U 1 1 59A21830
 P 10400 5050
 F 0 "C2" H 10515 5141 50  0000 L CNN
-F 1 "C" H 10515 5050 50  0000 L CNN
+F 1 "100nF" H 10515 5050 50  0000 L CNN
 F 2 "Doppelganger:0603C" H 10515 4959 50  0000 L CNN
 F 3 "" H 10400 5050 50  0000 C CNN
 	1    10400 5050

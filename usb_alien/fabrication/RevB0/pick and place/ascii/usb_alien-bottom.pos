@@ -1,0 +1,8 @@
+### Module positions - created on Tue Oct 10 23:13:39 2017 ###
+### Printed by Pcbnew version kicad no-vcs-found-835c19f~60~ubuntu16.04.1
+## Unit = mm, Angle = deg.
+## Side : bottom
+# Ref     Val       Package                PosX       PosY       Rot  Side
+U1        74HC00    SOIC-14            149.3520   -94.4626    0.0000  bottom
+U2        74HC00    SOIC-14            134.7470   -94.5261    0.0000  bottom
+## End

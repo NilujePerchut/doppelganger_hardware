@@ -1,0 +1,31 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-f685cfa~60~ubuntu16.04.1*%
+%TF.CreationDate,2017-10-11T22:15:00+02:00*%
+%TF.ProjectId,usb_alien,7573625F616C69656E2E6B696361645F,rev?*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B.Size.X,40.790*%
+%TJ.B.Size.Y,40.803*%
+%TJ.B.LayerNum,2*%
+%TJ.B.Overall.Thickness,1.600*%
+%TJ.B.Legend.Present,Both*%
+%TJ.B.SolderMask.Present,Both*%
+G04 board design rules*
+%TJ.D.PadToPad.Out,0.152*%
+%TJ.D.PadToTrack.Out,0.152*%
+%TJ.D.TrackToTrack.Out,0.152*%
+%TJ.D.MinLineWidth.Out,0.152*%
+%TJ.D.TrackToRegion.Out,0.254*%
+%TJ.D.RegionToRegion.Out,0.254*%
+G04 Layer Structure*
+%TJ.L."Copper,L1,Top",Positive,usb_alien-F.Cu.gtl*%
+%TJ.L."Copper,L2,Bot",Positive,usb_alien-B.Cu.gbl*%
+%TJ.L."Legend,Bot",Positive,usb_alien-B.SilkS.gbo*%
+%TJ.L."Legend,Top",Positive,usb_alien-F.SilkS.gto*%
+%TJ.L."SolderMask,Bot",Negative,usb_alien-B.Mask.gbs*%
+%TJ.L."SolderMask,Top",Negative,usb_alien-F.Mask.gts*%
+%TJ.L."Profile",Positive,usb_alien-Edge.Cuts.gm1*%
+M02*

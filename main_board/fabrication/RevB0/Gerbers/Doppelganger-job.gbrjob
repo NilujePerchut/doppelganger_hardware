@@ -1,0 +1,33 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-835c19f~60~ubuntu16.04.1*%
+%TF.CreationDate,2017-10-10T23:09:56+02:00*%
+%TF.ProjectId,Doppelganger,446F7070656C67616E6765722E6B6963,rev?*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B.Size.X,76.223*%
+%TJ.B.Size.Y,52.093*%
+%TJ.B.LayerNum,2*%
+%TJ.B.Overall.Thickness,1.600*%
+%TJ.B.Legend.Present,Both*%
+%TJ.B.SolderMask.Present,Both*%
+G04 board design rules*
+%TJ.D.PadToPad.Out,0.203*%
+%TJ.D.PadToTrack.Out,0.203*%
+%TJ.D.TrackToTrack.Out,0.203*%
+%TJ.D.MinLineWidth.Out,0.203*%
+%TJ.D.TrackToRegion.Out,0.203*%
+%TJ.D.RegionToRegion.Out,0.203*%
+G04 Layer Structure*
+%TJ.L."Copper,L1,Top",Positive,Doppelganger-F.Cu.gtl*%
+%TJ.L."Copper,L2,Bot",Positive,Doppelganger-B.Cu.gbl*%
+%TJ.L."SolderPaste,Bot",Positive,Doppelganger-B.Paste.gbp*%
+%TJ.L."SolderPaste,Top",Positive,Doppelganger-F.Paste.gtp*%
+%TJ.L."Legend,Bot",Positive,Doppelganger-B.SilkS.gbo*%
+%TJ.L."Legend,Top",Positive,Doppelganger-F.SilkS.gto*%
+%TJ.L."SolderMask,Bot",Negative,Doppelganger-B.Mask.gbs*%
+%TJ.L."SolderMask,Top",Negative,Doppelganger-F.Mask.gts*%
+%TJ.L."Profile",Positive,Doppelganger-Edge.Cuts.gm1*%
+M02*

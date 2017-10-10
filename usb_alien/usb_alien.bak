@@ -299,9 +299,9 @@ Text Label 4000 5450 2    60   ~ 0
 Up
 Text Label 4000 6750 2    60   ~ 0
 Cross
-Text Label 4000 6850 2    60   ~ 0
-Circle
 Text Label 4000 5650 2    60   ~ 0
+Circle
+Text Label 4000 6850 2    60   ~ 0
 Square
 Text Label 4000 5750 2    60   ~ 0
 Triangle
@@ -506,9 +506,9 @@ Text Label 5100 5950 0    60   ~ 0
 Up
 Text Label 6500 6050 2    60   ~ 0
 Cross
-Text Label 6500 6150 2    60   ~ 0
-Circle
 Text Label 5100 6150 0    60   ~ 0
+Circle
+Text Label 6500 6150 2    60   ~ 0
 Square
 Text Label 5100 6250 0    60   ~ 0
 Triangle

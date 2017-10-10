@@ -1,0 +1,11 @@
+### Module positions - created on Tue Oct 10 23:10:42 2017 ###
+### Printed by Pcbnew version kicad no-vcs-found-835c19f~60~ubuntu16.04.1
+## Unit = mm, Angle = deg.
+## Side : top
+# Ref     Val       Package                PosX       PosY       Rot  Side
+C4        0.1µF    0603C               61.7550    22.2961    0.0000  top
+C8        0.1µF    0603C               37.3202    14.3967    0.0000  top
+C10       0.1µF    0603C               43.2638    10.6680   90.0000  top
+C11       4,7µF    0603C               43.6905     2.9693  180.0000  top
+J3        dnf       GS2                 20.6578     3.1191  270.0000  top
+## End
