@@ -1,13 +1,9 @@
-EESchema Schematic File Version 2
+EESchema Schematic File Version 3
 LIBS:Doppelganger
 LIBS:power
 LIBS:device
-LIBS:transistors
-LIBS:conn
 LIBS:linear
 LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
 LIBS:adc-dac
 LIBS:memory
 LIBS:xilinx
@@ -22,14 +18,11 @@ LIBS:audio
 LIBS:interface
 LIBS:digital-audio
 LIBS:philips
-LIBS:display
 LIBS:cypress
 LIBS:siliconi
 LIBS:opto
 LIBS:atmel
 LIBS:contrib
-LIBS:valves
-LIBS:microchip_pic18mcu
 LIBS:Doppelganger-cache
 EELAYER 26 0
 EELAYER END
@@ -2510,4 +2503,6 @@ F 3 "" H 14800 6050 60  0001 C CNN
 	1    14800 6050
 	1    0    0    -1  
 $EndComp
+Entry Wire Line
+	14200 5050 14300 5150
 $EndSCHEMATC

@@ -1,4 +1,4 @@
-(kicad_pcb (version 20170922) (host pcbnew no-vcs-found-1164eaa~60~ubuntu16.04.1)
+(kicad_pcb (version 20170922) (host pcbnew no-vcs-found-9b4eddb~60~ubuntu16.04.1)
 
 (general
   (thickness 1.6)
@@ -33,39 +33,6 @@
   (49 F.Fab user hide)
 )
 
-
-(general
-  (thickness 1.6)
-  (drawings 55)
-  (tracks 1330)
-  (zones 0)
-  (modules 70)
-  (nets 75)
-)
-
-(page A4)
-(layers
-  (0 F.Cu signal)
-  (31 B.Cu signal)
-  (32 B.Adhes user)
-  (33 F.Adhes user)
-  (34 B.Paste user)
-  (35 F.Paste user)
-  (36 B.SilkS user)
-  (37 F.SilkS user)
-  (38 B.Mask user)
-  (39 F.Mask user)
-  (40 Dwgs.User user)
-  (41 Cmts.User user)
-  (42 Eco1.User user)
-  (43 Eco2.User user)
-  (44 Edge.Cuts user)
-  (45 Margin user hide)
-  (46 B.CrtYd user hide)
-  (47 F.CrtYd user hide)
-  (48 B.Fab user hide)
-  (49 F.Fab user hide)
-)
 
 (setup
   (last_trace_width 0.2032)
@@ -3149,7 +3116,7 @@
     (pad 3 thru_hole circle (at -3.505 -1.245 90) (size 2.3 2.3) (drill 1.321) (layers *.Cu *.Mask B.SilkS))
     (pad 4 thru_hole circle (at 3.505 -1.245 90) (size 2.3 2.3) (drill 1.321) (layers *.Cu *.Mask B.SilkS))
     (model ${KIPRJMOD}/3DShapes/evqpf304r.wrl
-      (at (xyz 0 0.03937007874015748 0))
+      (at (xyz 0 0.03937007874015748 0.07874015748031496))
       (scale (xyz 2 2 2))
       (rotate (xyz -90 0 180))
     )
@@ -3855,7 +3822,7 @@
     (pad 3 thru_hole circle (at -3.505 -1.245 90) (size 2.3 2.3) (drill 1.321) (layers *.Cu *.Mask B.SilkS))
     (pad 4 thru_hole circle (at 3.505 -1.245 90) (size 2.3 2.3) (drill 1.321) (layers *.Cu *.Mask B.SilkS))
     (model ${KIPRJMOD}/3DShapes/evqpf304r.wrl
-      (at (xyz 0 0.03937007874015748 0))
+      (at (xyz 0 0.03937007874015748 0.07874015748031496))
       (scale (xyz 2 2 2))
       (rotate (xyz -90 0 180))
     )
@@ -4074,7 +4041,7 @@
     (effects (font (size 1.1 1.1) (thickness 0.2)))
   )
   (dimension 51.943 (width 0.3) (layer Dwgs.User)
-    (gr_text "51,943 mm" (at 183.214 91.5035 90) (layer Dwgs.User) (tstamp 59D93680)
+    (gr_text "51,943 mm" (at 183.214 91.5035 90) (layer Dwgs.User) (tstamp 59EB6CE6)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 175.387 65.532) (xy 184.564 65.532)))
@@ -4086,7 +4053,7 @@
     (arrow2b (pts (xy 181.864 117.475) (xy 181.277579 116.348496)))
   )
   (dimension 76.073 (width 0.3) (layer Dwgs.User)
-    (gr_text "76,073 mm" (at 137.3505 121.619) (layer Dwgs.User) (tstamp 59D93681)
+    (gr_text "76,073 mm" (at 137.3505 121.619) (layer Dwgs.User) (tstamp 59EB6CE7)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 175.387 117.475) (xy 175.387 122.969)))

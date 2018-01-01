@@ -1,4 +1,4 @@
-update=mer. 02 août 2017 22:33:05 CEST
+update=ven. 01 déc. 2017 22:25:24 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,37 +27,4 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=../main_board
-[eeschema/libraries]
-LibName1=arcade_adapter-rescue
-LibName2=Doppelganger
-LibName3=power
-LibName4=device
-LibName5=transistors
-LibName6=conn
-LibName7=linear
-LibName8=regul
-LibName9=74xx
-LibName10=cmos4000
-LibName11=adc-dac
-LibName12=memory
-LibName13=xilinx
-LibName14=microcontrollers
-LibName15=dsp
-LibName16=microchip
-LibName17=analog_switches
-LibName18=motorola
-LibName19=texas
-LibName20=intel
-LibName21=audio
-LibName22=interface
-LibName23=digital-audio
-LibName24=philips
-LibName25=display
-LibName26=cypress
-LibName27=siliconi
-LibName28=opto
-LibName29=atmel
-LibName30=contrib
-LibName31=valves
-LibName32=arcade_adapter
+LibDir=
