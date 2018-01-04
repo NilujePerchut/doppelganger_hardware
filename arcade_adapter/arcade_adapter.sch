@@ -1,36 +1,4 @@
-EESchema Schematic File Version 2
-LIBS:arcade_adapter-rescue
-LIBS:Doppelganger
-LIBS:power
-LIBS:device
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
-LIBS:arcade_adapter
+EESchema Schematic File Version 4
 LIBS:arcade_adapter-cache
 EELAYER 26 0
 EELAYER END
@@ -39,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Doppelganger Arcade Adapter"
 Date "2017-03-29"
-Rev "A0"
+Rev "B1"
 Comp "Tach Radio"
 Comment1 ""
 Comment2 ""
@@ -47,54 +15,53 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L GND #PWR01
+L arcade_adapter-rescue:GND-RESCUE-arcade_adapter #PWR01
 U 1 1 58DC298C
-P 9050 4150
-F 0 "#PWR01" H 9050 3900 50  0001 C CNN
-F 1 "GND" H 9055 3977 50  0000 C CNN
-F 2 "" H 9050 4150 50  0001 C CNN
-F 3 "" H 9050 4150 50  0001 C CNN
-	1    9050 4150
+P 9600 4550
+F 0 "#PWR01" H 9600 4300 50  0001 C CNN
+F 1 "GND" H 9605 4377 50  0000 C CNN
+F 2 "" H 9600 4550 50  0001 C CNN
+F 3 "" H 9600 4550 50  0001 C CNN
+	1    9600 4550
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR02
+L arcade_adapter-rescue:VDD-RESCUE-arcade_adapter #PWR02
 U 1 1 58DC2A0A
-P 9050 2650
-F 0 "#PWR02" H 9050 2500 50  0001 C CNN
-F 1 "VDD" H 9067 2823 50  0000 C CNN
-F 2 "" H 9050 2650 50  0001 C CNN
-F 3 "" H 9050 2650 50  0001 C CNN
-	1    9050 2650
+P 9600 3050
+F 0 "#PWR02" H 9600 2900 50  0001 C CNN
+F 1 "VDD" H 9617 3223 50  0000 C CNN
+F 2 "" H 9600 3050 50  0001 C CNN
+F 3 "" H 9600 3050 50  0001 C CNN
+	1    9600 3050
 	1    0    0    -1  
 $EndComp
-Text Label 8800 2800 0    60   ~ 0
+Text Label 9350 3200 0    60   ~ 0
 Up
-Text Label 8800 2900 0    60   ~ 0
+Text Label 9350 3300 0    60   ~ 0
 Down
-Text Label 8800 3000 0    60   ~ 0
+Text Label 9350 3400 0    60   ~ 0
 Left
-Text Label 8800 3100 0    60   ~ 0
+Text Label 9350 3500 0    60   ~ 0
 Right
-Text Label 8800 3200 0    60   ~ 0
+Text Label 9350 3600 0    60   ~ 0
 LP
-Text Label 8800 3300 0    60   ~ 0
+Text Label 9350 3700 0    60   ~ 0
 MP
-Text Label 8800 3400 0    60   ~ 0
+Text Label 9350 3800 0    60   ~ 0
 HP
-Text Label 8800 3500 0    60   ~ 0
+Text Label 9350 3900 0    60   ~ 0
 LK
-Text Label 8800 3600 0    60   ~ 0
+Text Label 9350 4000 0    60   ~ 0
 Start
-Text Label 8800 3700 0    60   ~ 0
+Text Label 9350 4100 0    60   ~ 0
 Coin
-Text Label 8800 3800 0    60   ~ 0
+Text Label 9350 4200 0    60   ~ 0
 MK
-Text Label 8800 3900 0    60   ~ 0
+Text Label 9350 4300 0    60   ~ 0
 HK
-NoConn ~ 9100 4000
 $Comp
-L RJ45 J1
+L arcade_adapter-rescue:RJ45-RESCUE-arcade_adapter J1
 U 1 1 58DC2D17
 P 2400 4650
 F 0 "J1" V 2523 5130 50  0000 L CNN
@@ -109,22 +76,22 @@ F 7 "1860580" V 2400 4650 60  0001 C CNN "Farnell CC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L DB15_FEMALE J3
+L arcade_adapter-rescue:DB15_FEMALE-RESCUE-arcade_adapter J3
 U 1 1 58DC2FC6
-P 9400 3400
-F 0 "J3" H 9555 3446 50  0000 L CNN
-F 1 "DB15_FEMALE" H 9555 3355 50  0000 L CNN
-F 2 "Doppelganger:DB15F_CI" H 9400 3400 50  0001 C CNN
-F 3 "" H 9400 3400 50  0001 C CNN
-F 4 "15 pin female subd" H 0   0   60  0001 C CNN "Descr"
-F 5 "5502-15SA-01-F1 " H 0   0   60  0001 C CNN "Part number"
-F 6 "MULTICOMP" H 0   0   60  0001 C CNN "Manufacturer"
-F 7 "1084693" H 0   0   60  0001 C CNN "Farnell CC"
-	1    9400 3400
-	1    0    0    -1  
+P 9950 3800
+F 0 "J3" H 10105 3846 50  0000 L CNN
+F 1 "DB15_FEMALE" H 10105 3755 50  0000 L CNN
+F 2 "Doppelganger:DB15F_CI" H 9950 3800 50  0001 C CNN
+F 3 "" H 9950 3800 50  0001 C CNN
+F 4 "15 pin female subd" H 550 400 60  0001 C CNN "Descr"
+F 5 "5502-15SA-01-F1 " H 550 400 60  0001 C CNN "Part number"
+F 6 "MULTICOMP" H 550 400 60  0001 C CNN "Manufacturer"
+F 7 "1084693" H 550 400 60  0001 C CNN "Farnell CC"
+	1    9950 3800
+	1    0    0    1   
 $EndComp
 $Comp
-L 18F23K22 U1
+L arcade_adapter-rescue:18F23K22-RESCUE-arcade_adapter U1
 U 1 1 58DC3A57
 P 5900 5000
 F 0 "U1" H 5950 7750 60  0000 C CNN
@@ -139,7 +106,7 @@ F 7 "PIC18F23K22T-I/SO" H 0   0   60  0001 C CNN "Part number"
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C3
+L arcade_adapter-rescue:C-RESCUE-arcade_adapter C3
 U 1 1 58DC3AD3
 P 5600 4500
 F 0 "C3" H 5650 4600 50  0000 L CNN
@@ -154,7 +121,7 @@ F 7 "1759037" H 0   0   60  0001 C CNN "Farnell CC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR03
+L arcade_adapter-rescue:VDD-RESCUE-arcade_adapter #PWR03
 U 1 1 58DC3D81
 P 5600 4250
 F 0 "#PWR03" H 5600 4100 50  0001 C CNN
@@ -165,7 +132,7 @@ F 3 "" H 5600 4250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR04
+L arcade_adapter-rescue:GND-RESCUE-arcade_adapter #PWR04
 U 1 1 58DC3DF5
 P 5600 4850
 F 0 "#PWR04" H 5600 4600 50  0001 C CNN
@@ -176,7 +143,7 @@ F 3 "" H 5600 4850 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L CONN_01X06 J2
+L arcade_adapter-rescue:CONN_01X06-RESCUE-arcade_adapter J2
 U 1 1 58DC3E97
 P 5000 2000
 F 0 "J2" V 4965 1662 50  0000 R CNN
@@ -196,7 +163,7 @@ PGD
 Text Label 5350 2550 0    60   ~ 0
 PGC
 $Comp
-L GND #PWR05
+L arcade_adapter-rescue:GND-RESCUE-arcade_adapter #PWR05
 U 1 1 58DC433B
 P 4950 2250
 F 0 "#PWR05" H 4950 2000 50  0001 C CNN
@@ -207,7 +174,7 @@ F 3 "" H 4950 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR06
+L arcade_adapter-rescue:VDD-RESCUE-arcade_adapter #PWR06
 U 1 1 58DC43D2
 P 4850 2350
 F 0 "#PWR06" H 4850 2200 50  0001 C CNN
@@ -218,7 +185,7 @@ F 3 "" H 4850 2350 50  0001 C CNN
 	-1   0    0    1   
 $EndComp
 $Comp
-L R R3
+L arcade_adapter-rescue:R-RESCUE-arcade_adapter R3
 U 1 1 58DC44A5
 P 5450 2650
 F 0 "R3" V 5550 2650 50  0000 C CNN
@@ -233,7 +200,7 @@ F 7 "2447227" H 0   0   60  0001 C CNN "Farnell CC"
 	0    1    1    0   
 $EndComp
 $Comp
-L R R1
+L arcade_adapter-rescue:R-RESCUE-arcade_adapter R1
 U 1 1 58DC477C
 P 4500 2250
 F 0 "R1" V 4600 2250 50  0000 C CNN
@@ -248,7 +215,7 @@ F 7 "2447230" H 0   0   60  0001 C CNN "Farnell CC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L VDD #PWR07
+L arcade_adapter-rescue:VDD-RESCUE-arcade_adapter #PWR07
 U 1 1 58DC4829
 P 4500 2050
 F 0 "#PWR07" H 4500 1900 50  0001 C CNN
@@ -259,7 +226,7 @@ F 3 "" H 4500 2050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L arcade_adapter-rescue:GND-RESCUE-arcade_adapter #PWR08
 U 1 1 58DC4984
 P 4500 3150
 F 0 "#PWR08" H 4500 2900 50  0001 C CNN
@@ -270,7 +237,7 @@ F 3 "" H 4500 3150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C1
+L arcade_adapter-rescue:C-RESCUE-arcade_adapter C1
 U 1 1 58DC4A49
 P 4500 2800
 F 0 "C1" H 4615 2846 50  0000 L CNN
@@ -285,7 +252,7 @@ F 7 "1759037" H 0   0   60  0001 C CNN "Farnell CC"
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L arcade_adapter-rescue:GND-RESCUE-arcade_adapter #PWR09
 U 1 1 58DC504C
 P 2900 5050
 F 0 "#PWR09" H 2900 4800 50  0001 C CNN
@@ -296,7 +263,7 @@ F 3 "" H 2900 5050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR010
+L arcade_adapter-rescue:VDD-RESCUE-arcade_adapter #PWR010
 U 1 1 58DC5139
 P 2900 4250
 F 0 "#PWR010" H 2900 4100 50  0001 C CNN
@@ -308,10 +275,6 @@ F 3 "" H 2900 4250 50  0001 C CNN
 $EndComp
 Text Label 3150 4900 2    60   ~ 0
 SCK
-Text Label 3150 4800 2    60   ~ 0
-SDI
-Text Label 3150 4700 2    60   ~ 0
-SDO
 Text Label 3150 4400 2    60   ~ 0
 ~CSS
 Text Label 3150 4500 2    60   ~ 0
@@ -322,18 +285,13 @@ Text Label 7050 4550 2    60   ~ 0
 ~CSS
 Text Label 7050 4650 2    60   ~ 0
 SCK
-Text Label 7050 4750 2    60   ~ 0
-SDI
-Text Label 7050 4850 2    60   ~ 0
-SDO
 Text Label 7050 3200 2    60   ~ 0
 DATA
 Text Label 7050 3500 2    60   ~ 0
 CMD
-NoConn ~ 6750 4000
 NoConn ~ 6750 3900
 $Comp
-L R R4
+L arcade_adapter-rescue:R-RESCUE-arcade_adapter R4
 U 1 1 58DC6709
 P 7400 3400
 F 0 "R4" V 7500 3400 50  0000 C CNN
@@ -348,7 +306,7 @@ F 7 "2447339" H 0   0   60  0001 C CNN "Farnell CC"
 	0    1    1    0   
 $EndComp
 $Comp
-L GND #PWR011
+L arcade_adapter-rescue:GND-RESCUE-arcade_adapter #PWR011
 U 1 1 58DC6B08
 P 8200 3400
 F 0 "#PWR011" H 8200 3150 50  0001 C CNN
@@ -359,7 +317,7 @@ F 3 "" H 8200 3400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L arcade_adapter-rescue:R-RESCUE-arcade_adapter R2
 U 1 1 58DC6D0B
 P 4250 4850
 F 0 "R2" V 4350 4850 50  0000 C CNN
@@ -374,7 +332,7 @@ F 7 "2447339" H 0   0   60  0001 C CNN "Farnell CC"
 	-1   0    0    1   
 $EndComp
 $Comp
-L LED D1
+L arcade_adapter-rescue:LED-RESCUE-arcade_adapter D1
 U 1 1 58DC6E7C
 P 4250 5250
 F 0 "D1" V 4288 5133 50  0000 R CNN
@@ -389,7 +347,7 @@ F 7 "1465996" H 0   0   60  0001 C CNN "Farnell CC"
 	0    -1   -1   0   
 $EndComp
 $Comp
-L GND #PWR012
+L arcade_adapter-rescue:GND-RESCUE-arcade_adapter #PWR012
 U 1 1 58DC6FF8
 P 4250 5500
 F 0 "#PWR012" H 4250 5250 50  0001 C CNN
@@ -400,7 +358,7 @@ F 3 "" H 4250 5500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L VDD #PWR013
+L arcade_adapter-rescue:VDD-RESCUE-arcade_adapter #PWR013
 U 1 1 58DC7092
 P 4250 4650
 F 0 "#PWR013" H 4250 4500 50  0001 C CNN
@@ -411,7 +369,7 @@ F 3 "" H 4250 4650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L C C2
+L arcade_adapter-rescue:C-RESCUE-arcade_adapter C2
 U 1 1 58DC73EF
 P 5400 4500
 F 0 "C2" H 5250 4600 50  0000 L CNN
@@ -426,45 +384,45 @@ F 7 "1759037" H 0   0   60  0001 C CNN "Farnell CC"
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9050 4150 9050 4100
+	9600 4550 9600 4500
 Wire Wire Line
-	9050 4100 9100 4100
+	9600 4500 9650 4500
 Wire Wire Line
-	9100 2700 9050 2700
+	9650 3100 9600 3100
 Wire Wire Line
-	9050 2700 9050 2650
+	9600 3100 9600 3050
 Wire Wire Line
-	8800 2800 9100 2800
+	9350 3200 9650 3200
 Wire Wire Line
-	8800 2900 9100 2900
+	9350 3300 9650 3300
 Wire Wire Line
-	8800 3000 9100 3000
+	9350 3400 9650 3400
 Wire Wire Line
-	8800 3100 9100 3100
+	9350 3500 9650 3500
 Wire Wire Line
-	8800 3200 9100 3200
+	9350 3600 9650 3600
 Wire Wire Line
-	8800 3300 9100 3300
+	9350 3700 9650 3700
 Wire Wire Line
-	8800 3400 9100 3400
+	9350 3800 9650 3800
 Wire Wire Line
-	8800 3500 9100 3500
+	9350 3900 9650 3900
 Wire Wire Line
-	8800 3600 9100 3600
+	9350 4000 9650 4000
 Wire Wire Line
-	8800 3700 9100 3700
+	9350 4100 9650 4100
 Wire Wire Line
-	8800 3800 9100 3800
+	9350 4200 9650 4200
 Wire Wire Line
-	8800 3900 9100 3900
+	9350 4300 9650 4300
 Wire Wire Line
-	5600 4250 5600 4350
+	5600 4250 5600 4300
 Wire Wire Line
-	5400 4300 5700 4300
+	5400 4300 5600 4300
 Wire Wire Line
-	5600 4650 5600 4850
+	5600 4650 5600 4700
 Wire Wire Line
-	5400 4700 5700 4700
+	5400 4700 5600 4700
 Wire Wire Line
 	5600 4800 5700 4800
 Connection ~ 5600 4700
@@ -487,12 +445,12 @@ Wire Wire Line
 Wire Wire Line
 	4750 2650 5300 2650
 Wire Wire Line
-	4750 2200 4750 2650
+	4750 2200 4750 2450
 Wire Wire Line
 	4500 2050 4500 2100
 Connection ~ 4750 2450
 Wire Wire Line
-	4500 2400 4500 2650
+	4500 2400 4500 2450
 Wire Wire Line
 	4500 2950 4500 3150
 Wire Wire Line
@@ -578,7 +536,7 @@ Down
 Text Label 7050 4100 2    60   ~ 0
 Up
 $Comp
-L LED D2
+L arcade_adapter-rescue:LED-RESCUE-arcade_adapter D2
 U 1 1 58E0A582
 P 7800 3400
 F 0 "D2" V 7838 3283 50  0000 R CNN
@@ -607,7 +565,39 @@ Wire Wire Line
 	7050 2850 6750 2850
 Wire Wire Line
 	7050 3050 6750 3050
-NoConn ~ 6750 3300
 Wire Wire Line
 	6750 3400 7250 3400
+Wire Wire Line
+	5600 4700 5600 4800
+Wire Wire Line
+	5600 4700 5700 4700
+Wire Wire Line
+	5600 4300 5600 4350
+Wire Wire Line
+	5600 4300 5700 4300
+Wire Wire Line
+	5600 4800 5600 4850
+Wire Wire Line
+	4750 2450 4750 2650
+Wire Wire Line
+	4500 2450 4500 2650
+Text Label 3150 4700 2    50   ~ 0
+MOSI
+Text Label 3150 4800 2    50   ~ 0
+MISO
+Text Label 7050 4750 2    50   ~ 0
+MOSI
+Text Label 7050 4850 2    50   ~ 0
+MISO
+Wire Wire Line
+	9350 4400 9650 4400
+Text Label 9350 4400 0    50   ~ 0
+NC
+Text Label 7050 3300 2    50   ~ 0
+NC
+Text Notes 7800 5150 0    50   ~ 0
+Button attribution is done according to the UD USB decoder.\n(See http://udgametech.blogspot.fr/p/products.html).\nNC remains connected in order to handle multiple mapping (smallcab, MAK Strike).
+NoConn ~ 6750 4000
+Wire Wire Line
+	7050 3300 6750 3300
 $EndSCHEMATC
