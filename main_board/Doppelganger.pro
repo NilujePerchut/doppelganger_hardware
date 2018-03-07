@@ -1,4 +1,4 @@
-update=mer. 02 août 2017 16:23:06 CEST
+update=mer. 07 mars 2018 23:07:58 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -60,3 +60,13 @@ LibName28=atmel
 LibName29=contrib
 LibName30=valves
 LibName31=microchip_pic18mcu
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=fabrication/RevB0/Schematics/
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceAjustPassiveValues=0
+LabSize=50
+ERC_TestSimilarLabels=1

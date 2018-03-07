@@ -1,4 +1,4 @@
-update=mer. 07 mars 2018 23:02:21 CET
+update=mer. 07 mars 2018 23:06:17 CET
 version=1
 last_client=kicad
 [pcbnew]
@@ -31,7 +31,7 @@ LibDir=
 [schematic_editor]
 version=1
 PageLayoutDescrFile=
-PlotDirectoryName=
+PlotDirectoryName=fabrication/RevB1/Schematic/
 SubpartIdSeparator=0
 SubpartFirstId=65
 NetFmtName=
