@@ -1,9 +1,9 @@
-# Arcade Adapter RevB0
+# Arcade Adapter RevB1
 _Niluje (c) 2018_
 
 Doppelganger addon board designated to support superguns, and (in the future) controllers with more than 8 wires. ie: Megadrive/Genesys.
 
-This module is compatible with all Doppelganger versions (in case of RevA0, just apply all bug fixes listed in the README.md file).
+This module is compatible with all Doppelganger versions (in case of RevA0, just apply all bug fixes listed in the Doppelganger README.md file).
 
 ![alt tag](/render/aa.jpg?raw=true "Arcade adapter first batch")
 
@@ -13,35 +13,40 @@ Just use a straight Ethernet cable to connect the Arcade Adapter to the Doppelga
 
 ## SUBD15 cabling
 
+### Supergun
+
+The default SUBD15 for supergun is given below. But since all pins are connected to the
+PIC microcontroller, it is possible to implement any required pinout by modifiing the C code.
+
+Thus, it recommended to check the software for the currently supported pinouts.
+For the moment, only one pinout supported is the SmallCab supergun.
 
 | SUBD15 pin | function |
 |------------|----------|
-|          1 | Vdd      |
-|          2 | DOWN     |
-|          3 | RIGHT    |
-|          4 | MP       |
-|          5 | LK       |
-|          6 | Coin     |
-|          7 | HK       |
-|          8 | Gnd      |
-|          9 | UP       |
-|         10 | LEFT     |
-|         11 | LP       |
+|          1 | Gnd      |
+|          2 | NC       |
+|          3 | MK       |
+|          4 | LK       |
+|          5 | MP       |
+|          6 | RIGHT    |
+|          7 | DOWN     |
+|          8 | Vcc      |
+|          9 | HK       |
+|         10 | COIN     |
+|         11 | START    |
 |         12 | HP       |
-|         13 | Start    |
-|         14 | MK       |
-|         15 | NC       |
+|         13 | LP       |
+|         14 | LEFT     |
+|         15 | UP       |
+
+* NC does not mean "not connected" to the PIC microcontroller. It is just not connected to the supergun for this configuration.
+
+## Firmware
+This board must be used with the Doppelganger arcade adapter available in the Doppelganger software project.
 
 ## Known bugs
 
-### Bug 1
-The SPI SDO (U1 pin 16) and SDI (U2 pin 15) signal should be inverted. I will use MISO/MOSI notation in the futur.
-Proposed fix:
-* lift U1 pin 16 and 15 
-* connect U1 pin 16 to footprint pin 15
-* connect U1 pin 15 to footprint pin 16
-
-See the picture below for a dirty example.
+None for now (hopefuly)
 
 ## Licence
 

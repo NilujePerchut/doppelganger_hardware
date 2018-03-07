@@ -1,0 +1,15 @@
+G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,no-vcs-found-bf44d39~61~ubuntu16.04.1*
+G04 #@! TF.CreationDate,2018-01-04T16:51:08+01:00*
+G04 #@! TF.ProjectId,arcade_adapter,6172636164655F616461707465722E6B,rev?*
+G04 #@! TF.SameCoordinates,Original*
+G04 #@! TF.FileFunction,Glue,Top*
+G04 #@! TF.FilePolarity,Positive*
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW no-vcs-found-bf44d39~61~ubuntu16.04.1) date Thu Jan  4 16:51:08 2018*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+G04 APERTURE END LIST*
+M02*
