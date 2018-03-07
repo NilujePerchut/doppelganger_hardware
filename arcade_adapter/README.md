@@ -5,7 +5,7 @@ Doppelganger addon board designated to support superguns, and (in the future) co
 
 This module is compatible with all Doppelganger versions (in case of RevA0, just apply all bug fixes listed in the Doppelganger README.md file).
 
-![alt tag](/render/aa.jpg?raw=true "Arcade adapter first batch")
+![alt tag](render/aa.jpg?raw=true "Arcade adapter first batch")
 
 ## RJ45 cabling
 
