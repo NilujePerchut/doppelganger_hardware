@@ -1,4 +1,4 @@
-# Doppelganger RevA0
+# Doppelganger RevB0
 _Niluje (c) 2018_
 
 Joystick interface to Brook PCB and old video game systems.
